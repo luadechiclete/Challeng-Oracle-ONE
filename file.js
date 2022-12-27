@@ -24,7 +24,7 @@ function descriptografar(){
 }
 
 function copiar() {
-    var textoCop = document.getElementById('output');
+    var textoCop = document.getElementById('input-texto');
   
     textoCop.select();
     document.execCommand('copy');
