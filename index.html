@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleMedia.css">
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <title>Decodificador e codificador</title>
 </head>
@@ -13,12 +14,12 @@
     <main class="main container">
         <header class="cabecalho">
             <img src="assets/img/logo.png" alt="Logo">
-            <h1>Mensagens Codificadas</h1>
+            <h1>Codificando e Descodificando</h1>
         </header>
 
         <div class="container-input">
             <div class="input">
-                <textarea id="input-texto" placeholder="Digite o seu texto aqui"></textarea>
+                <textarea id="input-texto" placeholder="Digite o seu texto aqui" style="resize: none"></textarea>
                 <p>ATENÇÃO: Apenas letras maiúsculas e sem acento.</p>
             </div>
             <div id="output">
@@ -31,9 +32,9 @@
         </div>
 
         <div class="buttons">
-            <div class="container-btn">
-                <button class="btn-criptografar">Criptografar</button>
-                <button class="btn-descriptografar">Descriptografar</button>
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="bnt-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="bnt-descriptografar">Descriptografar</button>
 
             </div>
 
@@ -43,10 +44,11 @@
 
     <footer class="rodape">
         <div class="icons">
-            <a href="https://www.linkedin.com/in/luanasantosmeira/"><ion-icon name="logo-linkedin"></ion-icon></ion-icon></a>
-            <a href="https://twitter.com/tunglna"><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
-            <a href="https://github.com/tunglna"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/luanasantosmeira/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></ion-icon></a>
+            <a href="https://twitter.com/tunglna" target="_blank"><ion-icon name="logo-twitter"></ion-icon></ion-icon></a>
+            <a href="https://github.com/tunglna" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
         </div>
+        <h3>Desenvolvido por Luana Santos</h3>
     </footer>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script src="file.js"></script>

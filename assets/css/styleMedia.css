@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px) {
+    .cabecalho {
+        display: flex;
+        padding: 10%;
+        align-items: center;
+    }
+    .cabecalho img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .container-input {
+        display: inline;
+    }
+}
