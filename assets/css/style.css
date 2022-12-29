@@ -24,11 +24,12 @@ body {
 
 .cabecalho h1 {
     color: var(--cortitulo);
+    font-size: 200%;
 }
 
 .cabecalho img {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 80px;
+    max-height: 80px;
     height: auto;
     width: auto;
 }
@@ -40,20 +41,20 @@ body {
 }
 
 .container-input .input {
-    width: 400px;
-    height: 330px;
+    width: 50%;
+    height: 50%;
 }
 
 #input-texto, #output-texto {
-    width: 345px;
-    height: 330px;
+    width: 100%;
+    height: 100%;
     font-size: 20px;
     color: var(--cortitulo);
     background: transparent;
     box-shadow: none;
     border: none;
     outline: 0;
-    padding: 10px;
+    padding: 2%;
     text-transform: uppercase;
 }
 
@@ -62,28 +63,27 @@ body {
     flex-direction: column;
     border: 3px solid var(--cortitulo);
     border-radius: 20px;
-    width: 350px;
-    height: 400px;
+    width: 25%;
+    height: 40%;
     margin-right: 3%;
-    padding: 10px;
+    padding: 5%;
 }
-
 #output h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 100%;
     color: var(--cortitulo);
 }
 
 #output span {
-    font-size: 16px;
+    font-size: 100%;
     text-align: center;
 }
 
 #output img {
     display: block;
     margin: 0px auto;
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    height: 80%;
 }
 
 .container-bnt button {
@@ -95,6 +95,7 @@ body {
     height: 50px;
     margin-left: 4%;
     cursor: pointer;
+    margin-top: 5%;
 }
 
 .btn-copiar {
@@ -119,13 +120,13 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 2%;
-    margin-top: 15px;
+    margin-top: 6%;
     background: var(--corprincipal);
     color: var(--cortitulo);
 }
 
 .rodape h3 {
-    font-size: 16px;
+    font-size: 100%;
 }
 
 .icons ion-icon {
