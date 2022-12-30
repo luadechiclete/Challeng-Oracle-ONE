@@ -63,8 +63,8 @@ body {
     flex-direction: column;
     border: 3px solid var(--cortitulo);
     border-radius: 20px;
-    width: 25%;
-    height: 40%;
+    width: 200px;
+    height: 200px;
     margin-right: 3%;
     padding: 5%;
 }
@@ -96,7 +96,7 @@ body {
     margin-left: 4%;
     cursor: pointer;
     position: relative;
-    top: -250px;
+    top: -100px;
 }
 
 .btn-copiar {
@@ -107,7 +107,7 @@ body {
     width: 150px;
     height: 50px;
     margin-bottom: 10%;
-    margin-left: 30%;
+    margin-left: 15%;
     cursor: pointer;
 }
 
@@ -123,7 +123,7 @@ body {
     padding: 2%;
     margin-top: 6%;
     background: var(--corprincipal);
-    color: var(--cortitulo);
+    color: var(--corsecundaria);
 }
 
 .rodape h3 {
@@ -133,7 +133,7 @@ body {
 .icons ion-icon {
     width: 25px;
     height: 25px;
-    color: var(--cortitulo);
+    color: var(--corsecundaria);
 }
 
 .icons ion-icon:hover {
@@ -145,8 +145,17 @@ body {
         top: -200px;
     }
     #output {
-        width: 40%;
+        width: 300px;
+        height: 200px;
     }
+    .btn-copiar {
+        position: relative;
+        right: 50px
+    }
+    .container-bnt button {
+        top: 20px;
+    }
+
 }
 @media(max-width:750px) {
     .container-input {
@@ -157,6 +166,10 @@ body {
     }
     .container-bnt button {
         top: 20px;
+    }
+    .cabecalho {
+        justify-content: center;
+        align-items: center;
     }
 }
 
